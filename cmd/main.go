@@ -1,11 +1,3 @@
-# hatebu
-Crawl [hatebu](https://b.hatena.ne.jp/hotentry/it) to use something like daily chat bot
-
-# Usage
-
-write the code like this.
-
-```
 package main
 
 import (
@@ -23,4 +15,3 @@ func main() {
 		fmt.Printf("%s %s\n", v.Title, v.Href)
 	}
 }
-```
